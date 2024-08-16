@@ -1,0 +1,601 @@
+
+/* Section-1 styles */
+section{
+    margin: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.div_class1{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+nav ul{
+    display: flex;
+    column-gap: 70px;
+}
+nav li{
+    list-style: none;
+}
+nav a{  
+    text-decoration: none;
+    font-size: 25px;
+}
+nav h1{
+    font-size: 3em;
+}
+nav h1 span{
+    color: red;
+}
+#id1{
+    color: red;
+}
+
+
+
+
+/* Section-2 styles */
+
+
+
+.div_class2{
+    background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* background image center a thakbe X-Axis borabor */
+    background-size: cover;
+    /* This cover is for full image */
+    padding-bottom: 100px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_class3{
+    margin-top: 60px;
+    height: 100px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+
+    display: flex;
+}
+.div_class4{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    margin: 20px 30px ;
+    border-radius: 10px;
+}
+.div_class2 h1{
+    color: white;
+    font-size: 5em;
+    padding-top: 100px;
+}
+.div_class2 p{
+    color: white;
+    font-size: xx-large;
+    margin-top: -1em;
+}
+.div_class4 input,select,button{
+    margin: 15px;
+    border: none;
+}
+
+
+
+/* Section 3 styles */
+
+
+
+
+.div_class5{
+    display: flex;
+    margin-top: 100px;
+}
+.div_class6{
+    width: 700px;
+    margin-right: 100px;
+}
+.div_class6 h1{
+    font-size: 4em;
+}
+.div_class6 li,p{
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.603);
+    text-align: justify;
+}
+.div_class6 li{
+    padding: 10px;
+}
+.div_class6 button{
+    width: 220px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+}
+.div_class5 img{
+    height: 800px;
+    width: 800px;
+}
+
+
+
+
+/* Section 4 styles */
+
+
+.div_class7{
+    text-align: center;
+    width: 800px;
+    margin: 100px auto;
+}
+.div_class7 h1{
+    font-size: 3em;
+}
+
+.div_class8, .div_class9, .div_class10{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    height: 380px;
+}
+.div_class8 div{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    width: 100%;
+    /* Child div c1's width will be 100% of it's parents div_class8 */
+}
+#id2{
+    width: 32%;   
+}
+#id3{
+   width: 42%;   
+}
+#id4{
+    width: 26%;  
+}
+#id5{
+    width: 43%;
+}
+#id6{
+    width: 57%;
+}
+.div_class8 img, .div_class9 img, .div_class10 img{
+    width: 100%;
+    height: 100%;
+    /* image's width & height will be 100% of it's parent's c1 div */
+}
+
+#maldives{
+   font-size: 3em;
+   color: white;
+   position: relative;
+   bottom: 60%; 
+   left: 37%;
+}
+#indonesia{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 37%;
+}
+#srilanka{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 32%;
+}
+#north_america{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 28%;
+}
+#kashmir{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 28%;
+}
+#bangladesh{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 32%;
+}
+#bandarban{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom: 60%; 
+    left: 37%;
+}
+
+
+
+/* Section 5 styles */
+
+
+
+.div_class11{
+    width: 800px;
+    margin: 150px auto 80px;
+    text-align: center;
+}
+.div_class11 h1{
+    font-size: 3.5em;
+}
+.div_class12{
+    display: flex;
+    gap: 20px;
+}
+
+.div_class13{
+     /* border: 1px solid black; */
+     border-radius: 20px;
+     background-color: #fbb6361f;
+}
+.div_class14{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #29cdf61c;
+
+}
+.div_class15{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #e9444423;
+}
+.div_class13 img, .div_class14 img, .div_class15 img{
+    width: 120px;
+    height: 120px;
+    padding: 30px 30px;
+}
+.div_class13 h2, .div_class14 h2, .div_class15 h2{
+    font-size: 2.5em;
+    padding: 30px 30px;
+    margin-top: -1em;
+}
+.div_class13 p, .div_class14 p, .div_class15 p{
+    padding: 30px 30px;
+    margin-top: -3em;
+}
+.div_class15{
+    margin: 20px auto;
+    width: 50%;
+    height: 400px;
+}
+
+
+
+/* Section 6 styles */
+
+
+
+.div_class16{
+    /* border: 1px solid black; */
+    margin: 150px auto;
+    width: 700px;
+}
+.div_class16 h1{
+    font-size: 3em;
+    text-align: center;
+}
+.div_class16 p{
+    text-align: center;
+    line-height: 5px;
+}
+.div_class17{
+    /* border: 2px solid black; */
+    height: 700px;
+    margin-top: -4em;
+}
+.div_class17 img{
+    width: 100%;
+}
+.div_class18{
+    width: 820px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+    /* border: 1px solid red; */
+
+    position: relative;
+    right: -700px;
+   bottom: 615px;
+}
+.div_class19{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    /* border: 1px solid red; */
+
+    transform: translateY(50px);
+    /* div 18 theke div 19 50px niche chole asbe */
+}
+.div_class19 div{
+    display: flex;
+    align-items: center;
+}
+.div_class19 img{
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+}
+.div_class20{
+    margin: 70px 70px;
+}
+.div_class20 h2{
+     font-size: 2.2em;
+}
+.div_class20 h3{
+    font-size: 2em;
+    color: red;
+}
+#id7{
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: -2px;
+}
+.div_class21{
+    /* border: 1px solid black; */
+    height: 760px;
+}
+
+.div_class21 img{
+    width: 100%;
+}
+.div_class22{
+    width: 820px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 20px;
+
+    position: relative;
+    left: 80px;
+    bottom: 615px;
+
+}
+.div_class23{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    /* border: 1px solid red; */
+
+    transform: translateY(50px);
+    /* div 18 theke div 19 50px niche chole asbe */
+}
+.div_class23 div{
+    display: flex;
+    align-items: center;
+}
+.div_class23 img{
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+}
+.div_class24{
+    margin: 70px 70px;
+}
+.div_class24 h2{
+     font-size: 2.2em;
+}
+.div_class24 h3{
+    font-size: 2em;
+    color: red;
+}
+
+.div_class25{
+    height: 70px;
+    width: 250px;
+    background-color: red;
+    border-radius: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px auto;
+}
+.div_class25 button{
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+
+
+/* Section 7 styles */
+
+
+
+ .div_class26{
+    display: flex;
+    gap: 80px;
+    margin: 100px 0px;
+    /* border: 1px solid red; */
+} 
+.div_class27{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+ .div_class27 h1{
+      font-size: 4em;
+      margin-bottom: 10px;
+} 
+ .div_class27 li{
+    font-size: x-large;
+    font-weight: 500;
+}
+ .div_class27 button{
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.div_class28{
+    /* border: 2px solid black; */
+    width: 50%
+} 
+ .div_class28 img{
+   width: 100%;
+   height: 100%;
+    /* position: relative;
+    bottom: 90px; */
+} 
+.div_class28 p{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+
+    position: relative;
+    bottom: 380px;
+    left: 110px;
+}
+
+
+
+
+
+
+/* Section 8 styles */
+
+
+.div_class29{
+    display: flex;
+    gap: 80px;
+}
+.div_class30{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 600px;
+}
+.div_class30 h1{
+    font-size: 2em;
+    font-weight: 800;
+    padding: 30px 80px 0px 80px;
+}
+.div_class30 p{
+    padding: 0px 80px 0px 80px;
+}
+.div_class30 input{
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    padding: 10px 30px;
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 10px;
+    font-size: large;
+    margin: 5px 80px 0px 80px;
+}
+.div_class30 button{
+    height: 65px;
+    width: 460px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+    margin-left: 80px;
+}
+.div_class30 p{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    padding-bottom: 30px;
+}
+.div_class31{
+    /* border: 1px solid red; */
+    /* width: 800px; */
+    height: 550px;
+}
+.div_class31 img{
+    width: 920px;
+    height: 100%;
+}
+.div_class31 div{
+    width: 380px;
+    height: 150px;
+    background-color: red;
+    border-radius: 20px;
+
+    transform: translateX(530px) translateY(-240px) rotate(-20deg);
+}
+.div_class31 p,h2{
+    color: white;
+    text-align: center;
+}
+.div_class31 p{
+    padding-top: 30px;
+    margin-bottom: -20px;
+    font-size:xx-large;
+}
+.div_class3 h2{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+
+
+/* Footer styles */
+
+footer{
+    background-color: #1313180e;
+    height: 600px;
+}
+.div_class32{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 1px solid red; */
+   margin-top: 100px;
+}
+
+.div_class33{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 100px;
+  /* border: 1px solid black; */
+}
+.div_class33 span{
+    color: red;
+}
+.div_class33 img{
+    width: 50px;
+    height: 50px;
+}
+.div_class34{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    width: 1200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.div_class34 img{
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px 50px 0px;
+}
